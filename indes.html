@@ -75,14 +75,92 @@
 
     <section>
         <h2 class="titulos">Sobre mí</h2>
-        <div class="cuadro1">
-            <h4>Soy Angie Barreto, desarrolladora web y estudiante de Ingeniería de Software</h4>
 
-            <p class="text">Tengo 20 años y en mi primer año de estudios, me enfoco en el desarrollo front-end. A pesar de estar en las primeras etapas de mi carrera, he trabajado en varios proyectos que han fortalecido mis habilidades en diseño y desarrollo web. Me apasiona crear experiencias digitales atractivas y funcionales, y estoy entusiasmada por seguir aprendiendo y creciendo en este campo.</p>
-        </div>
-        <div>
+        <div class="segundaPagina">
+            <div class="cuadro1">
+                <div>
+                    <h4>Soy Angie Barreto, desarrolladora web y estudiante de Ingeniería de Software</h4>
+                    <div class="contacto">
+                        <a href="">
+                            Contactame
+                        </a>
+                    </div>
+
+                </div>
+
+                <p class="text">
+                    Tengo 20 años y en mi primer año de estudios, me enfoco en el desarrollo front-end. A pesar de estar
+                    en las primeras etapas de mi carrera, he trabajado en varios proyectos que han fortalecido mis
+                    habilidades en diseño y desarrollo web. Me apasiona crear experiencias digitales atractivas y
+                    funcionales, y estoy entusiasmada por seguir aprendiendo y creciendo en este campo.
+                </p>
+
+            </div>
+
+            <div class="cuadro2"></div>
 
         </div>
+
+        <div class="segundaPagina2">
+            <div>
+                <img src="img/img.png" alt="">
+            </div>
+
+            <div class="cuadro3">
+                <div>
+                    <h3>Skills</h3>
+                    <div class="skills">
+                        <img src="img/html-5.png" alt="">
+                        <img src="img/css-3.png" alt="">
+                    </div>
+
+                </div>
+
+                <div>
+                    <h3>Estudiando</h3>
+                    <div class="skills">
+                        <img src="img/js.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="cuadro4">
+                <h3>Mi educacion</h3>
+                <p>2024-2028</p>
+                <p>Corporacion universitaria iberoamericana</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section style="display: flex; flex-direction: column; align-items: center;">
+        <h2 class="titulos">Formulario de Contacto</h2>
+        <form action="/enviar" method="post">
+
+            <div class="formulario">
+
+                <div class="form1">
+                    <label for="nombre">SU NOMBRE</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe aquí..." required>
+                </div>
+
+                <div>
+                    <label for="email">CORREO ELECTRONICO</label><br>
+                    <input type="email" id="email" name="email" placeholder="Escribe aquí..." required>
+                </div>
+            </div>
+
+            <div class="form2">
+                <label for="mensaje">TU MENSAJE</label><br>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí..." rows="4" cols="50"
+                    required></textarea>
+            </div>
+
+            <div class="boton">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+
     </section>
 
 </body>
